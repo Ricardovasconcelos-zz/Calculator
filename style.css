@@ -1,8 +1,23 @@
 
+#designCalculator{
+  
+    margin: 30px auto;
+    width: 210px;
+    height: 240px;
+    background: #90a9cc;
+    border: 10px solid gray;
+}
 
 
+#buttomSpace{
+    margin-bottom: 10px;
+}
 
+#SpaceLeft{
+    margin-left: 5px;
+}
 
+<<<<<<< HEAD
 
 #designCalculator{
   
@@ -15,5 +30,9 @@
 
 .buttomSpace{
     margin-bottom: 10px;
+=======
+.form-control{
+    margin-top: 10px;
+>>>>>>> development
 }
 
