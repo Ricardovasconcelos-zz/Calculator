@@ -4,11 +4,16 @@
 
 
 
-#lengthCalculator{
-    margin: auto;
+#designCalculator{
+  
+    margin: 30px auto;
+    width: 200px;
+    height: 220px;
+    background: #90a9cc;
 }
 
-#lengthCalculator{
-    width: 200px;
-    height: 200px;
+
+.buttomSpace{
+    margin-bottom: 10px;
 }
+
