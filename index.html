@@ -1,32 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Challenge 23</title>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
-	<input type="text" value="0" readonly data-js="visor">
-	<div class="buttons-numbers">
-		<button data-js="button-number" value="0">0</button>
-		<button data-js="button-number"  value="1">1</button>
-		<button data-js="button-number" value="2">2</button>
-		<button data-js="button-number" value="3">3</button>
-		<button data-js="button-number" value="4">4</button>
-		<button data-js="button-number" value="5">5</button>
-		<button data-js="button-number" value="6">6</button>
-		<button data-js="button-number" value="7">7</button>
-		<button data-js="button-number" value="8">8</button>
-		<button data-js="button-number" value="9">9</button>
+	
+	<div class="container">	
+		<div class="row">
+			<div class="col-md-3 col-md-offset-4" style="border: 1px solid red">
+				<div id="lengthCalculator" style="border: 1px solid black">
+					<input type="text" value="0" readonly data-js="visor">
+						<div id="allButtons" style="border: 1px solid yellow">
+						<div class="buttons-numbers">
+						<button class="btn btn-primary" data-js="button-number" value="0">0</button>
+						<button class="btn btn-primary" data-js="button-number" value="1">1</button>
+						<button class="btn btn-primary" data-js="button-number" value="2">2</button>
+						<button class="btn btn-primary" data-js="button-number" value="3">3</button>
+						<button class="btn btn-primary" data-js="button-number" value="4">4</button>
+						<button class="btn btn-primary" data-js="button-number" value="5">5</button>
+						<button class="btn btn-primary" data-js="button-number" value="6">6</button>
+						<button class="btn btn-primary" data-js="button-number" value="7">7</button>
+						<button class="btn btn-primary" data-js="button-number" value="8">8</button>
+						<button class="btn btn-primary" data-js="button-number" value="9">9</button>
+							<div class="operations">
+									<button class="btn btn-primary" data-js="buttonOperation" data-id="button-operation-plus" value="+">+</button>
+									<button class="btn btn-primary" data-js="buttonOperation" data-id="button-operation-minus" value="-">-</button>
+									<button class="btn btn-primary" data-js="buttonOperation" data-id="button-operation-mult" value="x">x</button>
+									<button class="btn btn-primary" data-js="buttonOperation" data-id="button-operation-divi" value="÷">÷</button>
+									<button class="btn btn-primary" data-js="button-equal" value="=">=</button>
+									<button class="btn btn-primary" data-js="button-ce" value="ce">CE</button>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
+	
 
-	<div class="operations">
-		<button data-js="buttonOperation" data-id="button-operation-plus" value="+">+</button>
-		<button data-js="buttonOperation" data-id="button-operation-minus" value="-">-</button>
-		<button data-js="buttonOperation" data-id="button-operation-mult" value="x">x</button>
-		<button data-js="buttonOperation" data-id="button-operation-divi" value="÷">÷</button>
-		<button data-js="button-equal" value="=">=</button>
-		<button data-js="button-ce" value="ce">CE</button>
-	</div>
-
-	<script src="main4.js"></script>
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	 <!-- Include all compiled plugins (below), or include individual files as needed -->
+	 <script src="main.js" ></script> 
+	 <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
