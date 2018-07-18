@@ -1,14 +1,23 @@
 
-
-
-
-
-
-#lengthCalculator{
-    margin: auto;
+#designCalculator{
+  
+    margin: 30px auto;
+    width: 210px;
+    height: 240px;
+    background: #90a9cc;
+    border: 10px solid gray;
 }
 
-#lengthCalculator{
-    width: 200px;
-    height: 200px;
+
+#buttomSpace{
+    margin-bottom: 10px;
 }
+
+#SpaceLeft{
+    margin-left: 5px;
+}
+
+.form-control{
+    margin-top: 10px;
+}
+
