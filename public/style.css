@@ -1,0 +1,37 @@
+#background{
+    background: #344a6e;
+    
+}
+
+html{
+    background-color: #344a6e;
+}
+
+#designCalculator{
+    margin: 50% auto;
+    width: 280px;
+    height: 340px;
+    background: #fff707;
+    border: 5px solid gray;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#designButton{
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-size: 30px;
+    
+}
+
+#lengthInput{
+    font-size: 30px; 
+}
+
+.form-control{
+    margin-top: 20px;
+    
+}
+
+/*------ Tipografia -------*/
+
