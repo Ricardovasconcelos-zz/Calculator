@@ -10,7 +10,7 @@ html{
 #designCalculator{
     margin: 50% auto;
     width: 280px;
-    height: 340px;
+    height: 360px;
     background: #fff707;
     border: 5px solid gray;
     text-align: center;
@@ -26,6 +26,7 @@ html{
 
 #lengthInput{
     font-size: 30px; 
+    height: 50px;
 }
 
 .form-control{
